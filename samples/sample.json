@@ -1,0 +1,41 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "isStudent": false,
+    "courses": [
+        {
+            "id": 1,
+            "name": "Mathematics",
+            "completed": true,
+            "grades": [
+                90,
+                85,
+                88
+            ]
+        },
+        {
+            "id": 2,
+            "name": "History",
+            "completed": false,
+            "grades": [
+                75,
+                80
+            ]
+        }
+    ],
+    "contact": {
+        "email": "johndoe@example.com",
+        "phone": "+1-555-123-4567",
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "postalCode": "12345"
+        }
+    },
+    "favoriteColors": [
+        "red",
+        "green",
+        "blue"
+    ]
+}

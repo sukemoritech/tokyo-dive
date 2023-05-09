@@ -1,0 +1,35 @@
+{
+  "name": "tokyo-dive",
+  "displayName": "Tokyo Dive",
+  "version": "0.1.0",
+  "description": "VSCode color theme with a dark editor and colorful text.",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "tokyo",
+    "theme",
+    "dark",
+    "colorful",
+    "rainbow"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sukemoritech/tokyo-dive.git"
+  },
+  "license": "MIT",
+  "publisher": "sukemoritech",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Dive",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-dive-color-theme.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "icon": "icon.png"
+}
